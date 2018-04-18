@@ -1,0 +1,6 @@
+*.js linguist-language=python
+*.css linguist-language=python
+*.html linguist-language=python
+*.java linguist-language=java
+*.py linguist-language=python
+*.pkl linguist-language=python
