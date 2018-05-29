@@ -13,6 +13,7 @@ X = [
     [4,8,7,8,1]
 ]
 print("before transform: " ,X)
+# 并不局限于[0,1]
 scaler = MinMaxScaler(feature_range=(0,2))
 scaler.fit(X)
 print("min_is: ",scaler.min_)
