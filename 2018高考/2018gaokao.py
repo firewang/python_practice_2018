@@ -27,7 +27,8 @@ bar.add("录取人数",gaokao_years,gaokao_luqu,
         yaxis_name_gap= 50,
         legend_top='bottom',
         xaxis_rotate=30,
-        xaxis_interval=1
+        xaxis_interval=0,
+        is_datazoom_show=True,datazoom_range=[0,25]
         )
 page.add(bar)
 
@@ -40,7 +41,8 @@ line.add("录取率",
          legend_top='bottom',
          is_label_show=True,
          xaxis_rotate=30,
-         xaxis_interval=1
+         xaxis_interval=0,
+         is_datazoom_show=True,datazoom_range=[0,25]
          )
 page.add(line)
 
