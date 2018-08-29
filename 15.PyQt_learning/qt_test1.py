@@ -2,7 +2,7 @@
 # @Version : 1.0  
 # @Time    : 2018/8/29 9:59
 # @Author  :  wanghuodong  
-# @note    :
+# @note    : 生成一个简单窗口
 
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
