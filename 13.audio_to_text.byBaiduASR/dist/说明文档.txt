@@ -1,0 +1,18 @@
+raw_file_path  -- 存放原始音视频
+
+audio_files -- 转化后符合转化要求的音频存放处
+
+result -- 输出的 文本文件存放处
+
+tmp_path -- 临时文件存放处, 处理完成后清空
+
+error_info.txt -- 记录错误信息
+
+
+
+1. 将  ~ /extends/bin 加入系统环境变量中     e.g  D:/baiduyuyin/extends/bin
+
+
+2.将需要提取文本的音视频放入  raw_file_path 文件夹中
+
+3.运行结束后在 result中的同名文件  即为原始音视频的文本内容
