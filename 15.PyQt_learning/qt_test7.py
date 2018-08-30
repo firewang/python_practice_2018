@@ -12,7 +12,7 @@ from PyQt5.QtWidgets import QAction, qApp,  QTextEdit
 from PyQt5.QtGui import QIcon,QFont
 #QtCore:包含了核心的非GUI功能。此模块用于处理时间、文件和目录、各种数据类型、流、URL、MIME类型、线程或进程。
 from PyQt5.QtCore import QCoreApplication
-
+from PyQt5 import sip
 
 class Example(QMainWindow):
     #注意这里继承自QMainWindow
