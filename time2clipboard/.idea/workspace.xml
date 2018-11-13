@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="099273fe-6b8d-41c7-8c1f-dd7c7b199f33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../12.time_series_processing/AirPassengers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/bin/ffmpeg.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/bin/ffplay.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/bin/ffprobe.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/developer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/fate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-bitstream-filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-codecs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-formats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-protocols.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-resampler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-scaler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg-utils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffmpeg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffplay-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffprobe-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/ffprobe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/git-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libavcodec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libavdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libavfilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libavformat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libavutil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libswresample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/libswscale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/mailing-list-faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/nut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/platform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/doc/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/ffprobe.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/libvpx-1080p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/libvpx-1080p50_60.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/libvpx-360p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/libvpx-720p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/extends/presets/libvpx-720p50_60.ffpreset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.KMeans.clustering/code/KMeans_t3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../1.KMeans.clustering/code/KMeans_t3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.KMeans.clustering/code/KMeans_t4_silhouette_coefficient.py" beforeDir="false" afterPath="$PROJECT_DIR$/../1.KMeans.clustering/code/KMeans_t4_silhouette_coefficient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/audio_files/为什么我们会做梦？.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/audio_files/为什么我们会做梦？.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-Analysis.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-Analysis.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-EXE.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-EXE.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PKG.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PKG.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PKG.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PKG.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PYZ.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PYZ.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PYZ.toc" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/out00-PYZ.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/warnmain_baidu_asr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/warnmain_baidu_asr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/xref-main_baidu_asr.html" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/build/main_baidu_asr/xref-main_baidu_asr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/audio_files/16k.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/raw_file_path/16k.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/raw_file_path/20160501集卓老板人类文明的10亿米台阶.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/raw_file_path/为什么我们会做梦？.flv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/dist/result/16k.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/main_baidu_asr.spec" beforeDir="false" afterPath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/main_baidu_asr.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/result/16k.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13.audio_to_text.byBaiduASR/result/为什么我们会做梦？.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14.moviepy/moviepy_video_cut.py" beforeDir="false" afterPath="$PROJECT_DIR$/../14.moviepy/moviepy_video_cut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7.KNN.ClassifierAndRegressor/code/KNN_Classifier_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../7.KNN.ClassifierAndRegressor/code/KNN_Classifier_model.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1774604557">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+          <entry key="spec" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/time2clipboard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="width" value="1750" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="time2clipboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time2clipboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="time2clipboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="time2clipboard" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099273fe-6b8d-41c7-8c1f-dd7c7b199f33" name="Default Changelist" comment="" />
+      <created>1542073639619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542073639619</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49865952" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/time2clipboard.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time2clipboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
