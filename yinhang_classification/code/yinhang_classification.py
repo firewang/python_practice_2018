@@ -17,6 +17,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import classification_report as cr
 from sklearn.base import TransformerMixin
 from copy import deepcopy
+import warnings
 
 
 class CustomDummifier(TransformerMixin):
@@ -111,7 +112,7 @@ def my_model_selection(train_x, train_y):
     lr = LogisticRegression()
     lr_param = {
         "penalty": ["l2", 'l1'],
-        "C": np.linspace(0.01, 1, 10)
+        "C": np.linspace(0.001, 0.1, 10)
     }
     svc = SVC()
     svc_param = {
@@ -123,7 +124,9 @@ def my_model_selection(train_x, train_y):
     }
 
     models = [dt, lr, svc, knn]
+    models = [lr]
     params = [dt_param, lr_param, svc_param, knn_param]
+    params = [lr_param]
     for model, param in zip(models, params):
         try:
             clf = GridSearchCV(model,
@@ -142,6 +145,7 @@ def my_model_selection(train_x, train_y):
 
 
 if __name__ == '__main__':
+    warnings.filterwarnings('ignore')
     train_x, train_y = get_data()
     train_x = feature_engineering(train_x)
     my_model_selection(train_x, train_y)
