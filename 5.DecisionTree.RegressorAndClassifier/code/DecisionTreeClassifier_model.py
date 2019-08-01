@@ -5,16 +5,39 @@
 # @note    : 
 
 import numpy as np
+import time
 from sklearn import datasets
+from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import model_selection
 import pyecharts as pe
+import pydotplus
+from dtreeviz.trees import dtreeviz
 
 def load_data():
     iris = datasets.load_iris()
     return model_selection.train_test_split(iris.data,iris.target,test_size=0.25,random_state=0,stratify=iris.target)
 
-def test_DecisionTreeClassifier(*data):
+
+def writeTree(clf, feature_names=None, class_names=None, filename='tree'):
+    """绘制决策图"""
+    dot_data = tree.export_graphviz(clf,
+                                    feature_names=feature_names,
+                                    class_names=class_names,
+                                    out_file=None,
+                                    filled=True,
+                                    rounded=True)  # rounded 用于支持中文
+    # graph = pydotplus.graph_from_dot_data(dot_data)
+    graph = pydotplus.graph_from_dot_data(dot_data.replace('helvetica', '"Microsoft YaHei"'))
+    # Image(graph.create_png())
+    # 将决策树模型输出为图片
+    currenttime = time.strftime('%Y%m%d%H%M%S', time.localtime())
+    graph.write_png(f'../output/{filename}-{currenttime}.png')
+    # 将决策树模型输出为PDF
+    graph.write_pdf(f'../output/{filename}-{currenttime}.pdf')
+
+
+def myDecisionTreeClassifier(*data):
     X_train,X_test,y_train,y_test = data
     clf = DecisionTreeClassifier()
     clf.fit(X_train,y_train)
@@ -26,26 +49,25 @@ def test_DecisionTreeClassifier(*data):
     print(clf.n_classes_)
     print(clf.n_features_)
     print(clf.n_outputs_)
-############# 绘制决策图
-    import pydotplus
-    from sklearn import tree
-    from sklearn.externals.six import StringIO
-    import os
-    tree.export_graphviz(clf,out_file='../output/tree.dot')
-    #delete tree.dot file  === os.remove()
-    # os.unlink("../output/tree.dot")
-    # os.remove("../output/tree.dot")
-    dot_data = StringIO()  #把文件暂时写在内存的对象中?
+
+    # 绘制决策图
     iris = datasets.load_iris()
-    tree.export_graphviz(clf,out_file=dot_data,
-                         feature_names=iris.feature_names,
-                         class_names=iris.target_names,
-                         filled=True)
-    graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
-    graph.write_pdf("../output/iris1.pdf")
-    # graph.write_png("../output/iris1.png")
+    writeTree(clf,
+              feature_names=iris.feature_names,
+              class_names=iris.target_names,
+              )
 
-
+    # 另一种方式的决策图
+    treeviz = dtreeviz(
+        clf,
+        X_train,
+        y_train,
+        target_name="hua",
+        feature_names=iris.feature_names,
+        class_names=["setosa", "versicolor", "virginica"]
+    )
+    treeviz.view()
+    treeviz.save(treeviz.save_svg())
 
 
 def test_DecisionTreeClassifier_criterion(*data):
@@ -85,8 +107,8 @@ def test_DecisionTreeClassifier_depth(*data,maxdepth):
 
 
 X_train,X_test,y_train,y_test = load_data()
-test_DecisionTreeClassifier(X_train,X_test,y_train,y_test)
-test_DecisionTreeClassifier_criterion(X_train,X_test,y_train,y_test)
-test_DecisionTreeClassifier_splitter(X_train,X_test,y_train,y_test)
-test_DecisionTreeClassifier_depth(X_train,X_test,y_train,y_test,maxdepth=20)
+myDecisionTreeClassifier(X_train,X_test,y_train,y_test)
+# test_DecisionTreeClassifier_criterion(X_train,X_test,y_train,y_test)
+# test_DecisionTreeClassifier_splitter(X_train,X_test,y_train,y_test)
+# test_DecisionTreeClassifier_depth(X_train,X_test,y_train,y_test,maxdepth=20)
 
