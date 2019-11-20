@@ -15,6 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import classification_report as cr
+import xgboost as xgb
 from sklearn.base import TransformerMixin
 from copy import deepcopy
 import warnings
@@ -122,11 +123,19 @@ def my_model_selection(train_x, train_y):
     knn_param = {
         "n_neighbors": list(range(3, 8))
     }
-
+    xx = xgb.XGBClassifier(objective="binary:logistic", booster='gbtree', n_jobs=-1, random_state=999)
+    xx_param = {
+        "n_estimators": list(range(50, 200, 50)),
+        "learning": [0.05, 0.1, 0.15, 0.2],
+        "max_depth": list(range(3, 7)),
+        "gamma": np.linspace(0.1, 0.2, 5),
+        "subsample": np.linspace(0.5, 1, 5),
+        "colsample_bytree":np.linspace(0.5, 1, 5),
+    }
     models = [dt, lr, svc, knn]
-    models = [lr]
+    models = [lr, xx]
     params = [dt_param, lr_param, svc_param, knn_param]
-    params = [lr_param]
+    params = [lr_param, xx_param]
     for model, param in zip(models, params):
         try:
             clf = GridSearchCV(model,
